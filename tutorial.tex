@@ -61,35 +61,46 @@
 \begin{document}
 \maketitle
 
-\section{Basics}
+\section{Navigation}
 \begin{itemize}
-	\item Press \keystroke{o} to open a new document or \keystroke{Shift}+\keystroke{o} to open a previously opened document.
-	\item Use the arrow keys for navigation.
-	\item Use \keystroke{Ctrl}+\keystroke{PageDown}/\keystroke{Ctrl}+\keystroke{PageUp} to go to previous/next page.
-	\item Press \keystroke{Space}/\keystroke{Shift}+\keystroke{Space} to go to the next/previous screen (which is equivalent to scrolling down half of screen width). You can also use \keystroke{PageDown} and \keystroke{PageUp}.
-	\item Press \keystroke{Shift}+\keystroke{j} to zoom out.
-	\item Press \keystroke{Shift}+\keystroke{k} to zoom in.
-	\item Press \keystroke{F11} to enter fullscreen mode.
-	\item Press \keystroke{S} to fit the document to screen ignoring white page margins.
-	\item Press \keystroke{s} to fit the document to screen (including white margins).
-	\item Press \keystroke{i} to toggle dark mode.
-	\item Enter \keystroke{gg} to go to the first page. In order to go to a specific page, enter \verb+[NUM]+\keystroke{gg} where \verb+[NUM]+ is the page number. For example in order to go to page 31, enter \keystroke{31gg}. You can also press \keystroke{Home} to go to a specific page.
+	\item Use \keystroke{h} \keystroke{j} \keystroke{k} \keystroke{l} keys for navigation.
+	\item Press \keystroke{d} / \keystroke{u} to scroll half Down/Up.
+	\item Press \keystroke{D} / \keystroke{U} to go to previous/next page.
+	\item Press \keystroke{J} / \keystroke{K} to zoom in/out.
+	\item Enter \keystroke{gg} to go to the first page.
 	\item Press \keystroke{G} to go to the last page.
+	\item Enter [Number]+\keystroke{g} to jump to a page.
+	\item Press \keystroke{s} to fit the document to screen (including white margins).
+	\item Press \keystroke{S} to fit the document to screen (ignoring white page margins).
 	\item Press \keystroke{Tab} to open table of contents (if it exists).
-	\item Use \keystroke{backspace} to go back in history. You can also use \keystroke{Ctrl}+\keystroke{left arrow} and \keystroke{Ctrl}+\keystroke{right arrow} to navigate backward/forward in history. Also extra mouse buttons can be used to navigate history.
-	\item  With some text selected, press \keystroke{wss} to search the text in Google Scholar and \keystroke{wsl} to search it in Library Genesis. Try it out on the following texts:\\
-		Vaswani, Ashish, et al. "{\color{red} Attention is all you need}." Advances in neural information processing systems. 2017.
+	\item Press \keystroke{F11} to enter fullscreen mode.
+	\item Press \keystroke{i} to toggle dark mode.
+
 \end{itemize}
+\section{Manage Files}
+\begin{itemize}
+	\item Press \keystroke{o} to open a new document
+	\item Press \keystroke{Shift}+\keystroke{o} to open a previously opened document.
+\end{itemize}
+
+\section{Search}
+\begin{itemize}
+	\item Press \keystroke{/} to search.
+	\item Press \keystroke{n} / \keystroke{Shift}+\keystroke{n} to go to the next/previous match.
+	\item In order to quickly jump in search results, you can use \verb+[NUM]+\keystroke{n} where \verb+[NUM]+ is a number. For example in order to jump to the 10th next occurance of current search term, enter \keystroke{10n}. In fact most commands in sioyek can be prefixed with a number \verb+N+ which is equivalent to repeating them \verb+N+ times.
+
+\bigskip
+With some text selected, press:
+	\item	\keystroke{w}+\keystroke{s}+\keystroke{g} to search the text in Google.
+	\item	\keystroke{w}+\keystroke{s}+\keystroke{s} to search the text in Google Scholar.
+	\item	\keystroke{w}+\keystroke{s}+\keystroke{l} to search it in Library Genesis.
+\end{itemize}
+
+
 \section{Command Palette}
 \begin{itemize}
 	\item Press \keystroke{:} to open a searchable list of all sioyek commands
 	\item If the command is bound to a key, the keybinding is shown on the right (multiple keybinds are separated by | symbol)
-\end{itemize}
-\section{Search}
-\begin{itemize}
-	\item Press \keystroke{Ctrl}+\keystroke{f} or \keystroke{/}  to search.
-	\item Press \keystroke{n}/\keystroke{Shift}+\keystroke{n} to go to the next/previous match.
-	\item In order to quickly jump in search results, you can use \verb+[NUM]+\keystroke{n} where \verb+[NUM]+ is a number. For example in order to jump to the 10th next occurance of current search term, enter \keystroke{10n}. In fact most commands in sioyek can be prefixed with a number \verb+N+ which is equivalent to repeating them \verb+N+ times.
 \end{itemize}
 \section{Marks}
 \begin{itemize}
